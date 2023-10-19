@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px
+}
+
+.profile-card {
+    padding: 20px;
+}
+
+table {
+    align-items: center;
+    color: black;
+    border-color: black;
+    border: 2px;
+}
+
+tr {
+    text-align: center;
+}
