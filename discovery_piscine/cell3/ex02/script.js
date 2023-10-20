@@ -5,9 +5,6 @@ function calculadora() {
     var number2 = parseInt(document.getElementById("number2").value);
     var lista = document.getElementById("opciones");
     var selection = lista.selectedIndex;
-    var suma = document.getElementById("sumar");
-    var resta = document.getElementById("restar");
-    var multipicacion = document.getElementById("multiplicar");
     var division = document.getElementById("dividir");
     var rest = document.getElementById("resto");
     if (selection == 0) {
@@ -28,7 +25,7 @@ function calculadora() {
     if (division && rest == 0) {
         alert("Its over 9000!");
     }
-    if (x >= 0 && y >= 0){
+    if (number1 >= 0 && number2 >= 0){
         alert(value);
         console.log(value);
     }
