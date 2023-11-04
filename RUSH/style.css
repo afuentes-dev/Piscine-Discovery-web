@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(229, 230, 232);
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-image: url('./img/fondo.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+.container {
+    text-align: center;
+    margin: 250px;
+    margin-top: 20%;
+    z-index: 2;
+}
+
+.custom-button {
+    background-color: #1283ca;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 200px;
+    transition: background-color 0.3s ease;
+    z-index: 2;
+}
+
+.custom-button:hover {
+    background-color: #13cbe3;
+}
