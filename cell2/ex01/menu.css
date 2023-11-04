@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #555;
+    margin: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    background: #333;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+
+.submenu-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #555;
+}
+
+.submenu:hover .submenu-content {
+    display: block;
+}
