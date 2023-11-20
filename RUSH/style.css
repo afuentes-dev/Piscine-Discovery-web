@@ -4,8 +4,8 @@ body {
     color: white;
     text-align: center;
     align-items: center;
-    background-image: url('./img/fondo.jpg'); 
-    background-size: cover; 
+    background-image: url('./img/fondo.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
 }
 

@@ -10,17 +10,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="overlay"></div>
     <div class="container">
         <h1> Página de Andrés y Arturo </h1>
         <p>Curriculums Vitae</p>
         <button class="custom-button" id="andres-buttom">
-        <a href="./Andres/Andres.html">Andres</a>
+        <span href="./Andres/Andres.html">Andres</span>
         </button>
 
         <button class="custom-button" id="arturo-buttom">
-        <a href="./Artu/Artu.html">Arturo</a>
+        <span href="./Artu/Artu.html">Arturo</span>
         </button>
     </div>
+    <script>
+        const buttons = document.querySelectorAll('.custom-button');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const link = button.querySelector('span');
+                window.location.href = link.getAttribute('href');
+            });
+        });
+    </script>
 </body>
 </html>
