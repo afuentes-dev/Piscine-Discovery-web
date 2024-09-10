@@ -1,4 +1,4 @@
-# Bootcamp de Desarrollo Web - Semana Intensiva
+# Piscina Discovery Web 42 Madrid - Semana Intensiva
 
 Este repositorio contiene el material desarrollado durante mi Piscina Discovery Web de una semana. Los ejercicios están organizados por celdas (`cell0`, `cell1`, etc.) y cubren una variedad de temas y tecnologías, incluyendo scripts de bash, HTML, CSS y JavaScript.
 
